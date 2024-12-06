@@ -3,6 +3,10 @@
   "version": "1.0.2",
   "description": "Ma premiere application desktop cross-platform distribuable",
   "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paul-schuhm/demo-publish-electron-app.git"
+  },
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
