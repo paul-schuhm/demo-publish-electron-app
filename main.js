@@ -4,6 +4,8 @@ const { app, BrowserWindow } = require('electron')
 //@See : https://www.electronforge.io/import-existing-project#adding-squirrel.windows-boilerplate
 if (require('electron-squirrel-startup')) app.quit();
 
+require('update-electron-app')()
+
 const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
